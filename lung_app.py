@@ -1,10 +1,9 @@
-
 import streamlit as st
 import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("Cancer_pred.pkl")
+model = joblib.load("lung_cancer.pkl")
 
 st.set_page_config(
     page_title="Lung Cancer Prediction",
